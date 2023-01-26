@@ -1,0 +1,14 @@
+.guide p {
+    margin: 0 15vh;
+    font-size: 20px;
+}
+.guide h2 {
+    margin: 0 15vh;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.steps {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    text-align: left;
+}

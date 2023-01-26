@@ -1,0 +1,20 @@
+.list {
+    text-align: left;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 20px;
+}
+h2 {
+    display: inline;
+    font-size: 80px;
+    line-height: 100px;
+}
+p {
+    display: inline;
+}
+.list img {
+    padding-right: 40px;
+}
+.list-item {
+    padding-bottom: 80px;
+}

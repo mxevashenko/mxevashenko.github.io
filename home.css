@@ -1,0 +1,34 @@
+.content {
+    border-top: 4px dashed rgb(80, 80, 80);
+    padding: 30px;
+    font-size: 30px;
+    display: flex;
+    gap: 30px;
+    row-gap: 60px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.content-item {
+    width: 45%;
+}
+.intro {
+    padding: 25px;
+    background-color: rgb(40, 40, 40);
+}
+.background {
+    z-index: -1;
+    position: absolute;
+    overflow: hidden;
+    height: 240%;
+    width: 100%;
+    top: -400px;
+}
+.background img {
+    width: 100%;
+    opacity: 0.05;
+}
+.content-item a {
+    text-decoration: none;
+    color: white;
+}

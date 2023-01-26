@@ -1,0 +1,48 @@
+:root {
+    background-color: rgb(20, 20, 20);
+    font-family: "Consolas";
+    color: white;
+}
+body {
+    margin: 0;
+    text-align: center;
+}
+.header {
+    background-image: linear-gradient(transparent, rgb(20, 20, 20)), url("/static/technology.jpg");
+    background-size: 100vw;
+    background-color: transparent;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    z-index: 1;
+}
+.header h1 {
+    width: fit-content;
+    display: inline;
+}
+.header-right {
+    float: right;
+    vertical-align: middle;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+}
+.header-right a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(40, 40, 40);
+    border-radius: 4px;
+    padding: 10px;
+    height: 100%;
+    transition-duration: 1s;
+}
+.header-right a:hover {
+    background-color: rgb(80, 80, 80);
+}
+.title {
+    font-size: 40px;
+    margin-top: auto;
+}
